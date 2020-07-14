@@ -6,6 +6,7 @@
 # filter_list([1,'a','b',0,15]) == [1,0,15]
 # filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 
+##Answer
 def filter_list(l)
     l.select{ |e| e.is_a? Integer}
 end
