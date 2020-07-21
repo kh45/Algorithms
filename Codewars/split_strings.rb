@@ -12,3 +12,5 @@
 def solution(str)
     str.length.even? ? str.scan(/../) : str.scan(/../).push("#{str[-1]}_")
 end
+
+##even better would be to add "_" to end of str and THEN scan, no need to check if even or odd
